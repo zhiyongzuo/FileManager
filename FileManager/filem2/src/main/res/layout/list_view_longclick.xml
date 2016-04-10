@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_folder"
+            android:text="folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radio_txt"
+            android:text="txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_txt_create_name"
+            android:hint="name you want"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <!--<TextView
+        android:id="@+id/create"
+        android:text="create"
+        android:textColor="#00b0ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cc"/>
+    <TextView
+        android:id="@+id/copy"
+        android:text="copy"
+        android:textColor="#00b0ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cc"/>
+    <TextView
+        android:id="@+id/paste"
+        android:text="paste"
+        android:textColor="#00b0ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cc"/>
+    <TextView
+        android:id="@+id/rename"
+        android:text="rename"
+        android:textColor="#00b0ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cc"/>
+    <TextView
+        android:id="@+id/delete"
+        android:text="delete"
+        android:textColor="#00b0ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/cc"/>
+!-->
+
+</LinearLayout>
